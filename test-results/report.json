@@ -1,0 +1,629 @@
+{
+    "name": "My Test Report",
+    "date": 1690755275329,
+    "dateH": "31/07/2023, 10:14:35 am",
+    "duration": 6334,
+    "durationH": "6.3s",
+    "cwd": "/home/tim/Workspace/playwrightTest",
+    "outputFile": "./test-results/report.html",
+    "outputDir": "./test-results",
+    "metadata": {
+        "actualWorkers": 1,
+        "totalTime": 3313.5969999991357
+    },
+    "system": {
+        "cpu": {
+            "color": "#117DBB",
+            "count": 12,
+            "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+            "speed": 2600
+        },
+        "mem": {
+            "color": "#8B12AE",
+            "total": 16385728512
+        },
+        "arch": "x64",
+        "platform": "linux",
+        "release": "5.15.0-57-generic",
+        "type": "Linux",
+        "version": "#63~20.04.1-Ubuntu SMP Wed Nov 30 13:40:16 UTC 2022",
+        "uptime": 9341.81,
+        "hostname": "tim-XPS-15-7590",
+        "pid": 24485,
+        "node": "16.19.0",
+        "v8": "9.4.146.26-node.24",
+        "timestampStart": 1690755275329,
+        "ticks": [
+            {
+                "cpu": {
+                    "percent": 10.16
+                },
+                "mem": {
+                    "free": 5774680064
+                },
+                "timestamp": 1690755277370
+            },
+            {
+                "cpu": {
+                    "percent": 50.16
+                },
+                "mem": {
+                    "free": 5634424832
+                },
+                "timestamp": 1690755279390
+            },
+            {
+                "cpu": {
+                    "percent": 5.9
+                },
+                "mem": {
+                    "free": 5928009728
+                },
+                "timestamp": 1690755281412
+            },
+            {
+                "cpu": {
+                    "percent": 3.22
+                },
+                "mem": {
+                    "free": 5943631872
+                },
+                "timestamp": 1690755281647
+            }
+        ],
+        "workers": 6,
+        "jobs": [
+            {
+                "caseId": "9f1c83f0fee608b73ed9",
+                "parallelIndex": 0,
+                "workerIndex": 0,
+                "timestamp": 1690755277545,
+                "duration": 3034
+            }
+        ],
+        "cwd": "/home/tim/Workspace/playwrightTest",
+        "configFile": "playwright.config.js",
+        "playwright": "1.36.2",
+        "monocart": "1.7.4",
+        "testDir": "tests",
+        "outputFile": "test-results/report.html",
+        "outputDir": "test-results",
+        "timestampEnd": 1690755281663
+    },
+    "artifacts": [],
+    "trends": [],
+    "columns": [
+        {
+            "id": "caseType",
+            "name": "",
+            "width": 36,
+            "sortable": false,
+            "align": "center",
+            "formatter": "iconCaseType",
+            "detailed": false
+        },
+        {
+            "id": "title",
+            "name": "Title",
+            "searchable": true,
+            "width": 350,
+            "maxWidth": 1230,
+            "detailed": false
+        },
+        {
+            "id": "type",
+            "name": "Type",
+            "width": 50,
+            "sortable": false,
+            "align": "center",
+            "formatter": "iconType",
+            "detailed": false
+        },
+        {
+            "id": "duration",
+            "name": "Duration",
+            "align": "right",
+            "sortAsc": false,
+            "formatter": "duration",
+            "detailed": false
+        },
+        {
+            "id": "errors",
+            "name": "Errors",
+            "width": 60,
+            "align": "center",
+            "comparer": "errors",
+            "formatter": "errors",
+            "detailed": false
+        },
+        {
+            "id": "logs",
+            "name": "Logs",
+            "width": 60,
+            "align": "center",
+            "comparer": "logs",
+            "formatter": "logs",
+            "detailed": false
+        },
+        {
+            "id": "annotations",
+            "name": "Annotations",
+            "width": 100,
+            "markdown": true,
+            "searchable": true,
+            "comparer": "annotations",
+            "formatter": "annotations",
+            "detailed": false
+        },
+        {
+            "id": "attachments",
+            "name": "Attachments",
+            "width": 100,
+            "align": "center",
+            "formatter": "attachments",
+            "detailed": false
+        },
+        {
+            "id": "status",
+            "name": "Status",
+            "align": "center",
+            "detailed": false
+        },
+        {
+            "id": "expectedStatus",
+            "name": "Expected",
+            "align": "center",
+            "detailed": false
+        },
+        {
+            "id": "outcome",
+            "name": "Outcome",
+            "align": "center",
+            "width": 85,
+            "detailed": false
+        },
+        {
+            "id": "retry",
+            "name": "Retry",
+            "align": "center",
+            "width": 50,
+            "detailed": false
+        },
+        {
+            "id": "location",
+            "name": "Location",
+            "classMap": "mcr-location",
+            "width": 200,
+            "maxWidth": 1981,
+            "detailed": false
+        }
+    ],
+    "rows": [
+        {
+            "id": "5ew0gd7d41d71gmwoa7b",
+            "title": "chromium",
+            "type": "suite",
+            "suiteType": "project",
+            "caseNum": 1,
+            "subs": [
+                {
+                    "id": "dd9b2edffe9b7501040c",
+                    "title": "example.spec.js",
+                    "type": "suite",
+                    "suiteType": "file",
+                    "caseNum": 1,
+                    "subs": [
+                        {
+                            "id": "9f1c83f0fee608b73ed9",
+                            "title": "example1",
+                            "type": "case",
+                            "caseType": "failed",
+                            "ok": false,
+                            "outcome": "unexpected",
+                            "expectedStatus": "passed",
+                            "location": "tests/example.spec.js:4:1",
+                            "timestamps": [
+                                1690755277545,
+                                1690755280579
+                            ],
+                            "duration": 3034,
+                            "timeout": 30000,
+                            "retry": 0,
+                            "status": "failed",
+                            "stepNum": 25,
+                            "stepFailed": 2,
+                            "stepSubs": true,
+                            "subs": [
+                                {
+                                    "id": "ki3g2idif4o1nvbgns7q",
+                                    "title": "Before Hooks",
+                                    "type": "step",
+                                    "stepType": "hook",
+                                    "duration": 2073,
+                                    "location": "",
+                                    "subs": [
+                                        {
+                                            "id": "rtzapfh8b9k78rlpucgy",
+                                            "title": "fixture: browser",
+                                            "type": "step",
+                                            "stepType": "fixture",
+                                            "duration": 271,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "wfps5m9diovqpqvyfbt5",
+                                                    "title": "browserType.launch",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 268,
+                                                    "location": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "1m8ayr9b5qgkt5mpu64k",
+                                            "title": "fixture: context",
+                                            "type": "step",
+                                            "stepType": "fixture",
+                                            "duration": 11,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "jd4ls4pfx25evaqip6zn",
+                                                    "title": "browser.newContext",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 8,
+                                                    "location": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "dbvhtnh911067t6jxl39",
+                                            "title": "fixture: page",
+                                            "type": "step",
+                                            "stepType": "fixture",
+                                            "duration": 1771,
+                                            "location": "",
+                                            "subs": [
+                                                {
+                                                    "id": "ya3cnrwbetdc5w2jm24e",
+                                                    "title": "browserContext.newPage",
+                                                    "type": "step",
+                                                    "stepType": "pw:api",
+                                                    "duration": 1770,
+                                                    "location": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "3ftvmc9o6skw3a9x0a66",
+                                    "title": "page.goto(http://localhost:8080/test.html)",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 35,
+                                    "location": "tests/example.spec.js:6:16"
+                                },
+                                {
+                                    "id": "2z3r6y8z7hfi3qaeykde",
+                                    "title": "page.screenshot",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 118,
+                                    "location": "tests/example.spec.js:8:27"
+                                },
+                                {
+                                    "id": "zhhh4v6szykwn2cn68ip",
+                                    "title": "expect.soft.toMatchSnapshot",
+                                    "type": "step",
+                                    "stepType": "expect",
+                                    "duration": 237,
+                                    "location": "tests/example.spec.js:8:41",
+                                    "errors": [
+                                        "Error: \u001b[31mScreenshot comparison failed:\u001b[39m\n\n  1752 pixels (ratio 0.01 of all image pixels) are different.\n\nExpected: \u001b[33m/home/tim/Workspace/playwrightTest/test-results/example-example1-chromium/test1-expected.png\u001b[39m\nReceived: \u001b[33m/home/tim/Workspace/playwrightTest/test-results/example-example1-chromium/test1-actual.png\u001b[39m\n    Diff: \u001b[33m/home/tim/Workspace/playwrightTest/test-results/example-example1-chromium/test1-diff.png\u001b[39m\n\n\u001b[0m \u001b[90m 6 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'http://localhost:8080/test.html'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 7 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 8 |\u001b[39m    expect\u001b[33m.\u001b[39msoft(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m\"test1.png\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\n    at /home/tim/Workspace/playwrightTest/tests/example.spec.js:8:41"
+                                    ],
+                                    "subs": [
+                                        {
+                                            "id": "nbixa6z8lq66b3urik1w",
+                                            "title": "attach \"test1-expected.png\"",
+                                            "type": "step",
+                                            "stepType": "attach",
+                                            "duration": 5,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "895ynpu3s2m363hzwnba",
+                                            "title": "attach \"test1-actual.png\"",
+                                            "type": "step",
+                                            "stepType": "attach",
+                                            "duration": 0,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "yrwd7zppi5ecdywbqp50",
+                                            "title": "attach \"test1-diff.png\"",
+                                            "type": "step",
+                                            "stepType": "attach",
+                                            "duration": 1,
+                                            "location": ""
+                                        }
+                                    ],
+                                    "errorNum": 1
+                                },
+                                {
+                                    "id": "dh4nsxusmynvab2ui06c",
+                                    "title": "page.goto(http://localhost:8080/test2.html)",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 22,
+                                    "location": "tests/example.spec.js:10:15"
+                                },
+                                {
+                                    "id": "8vu1xhuuba23w8usbxgq",
+                                    "title": "page.screenshot",
+                                    "type": "step",
+                                    "stepType": "pw:api",
+                                    "duration": 82,
+                                    "location": "tests/example.spec.js:12:28"
+                                },
+                                {
+                                    "id": "oiis3f4hcoafuvcub5m4",
+                                    "title": "expect.soft.toMatchSnapshot",
+                                    "type": "step",
+                                    "stepType": "expect",
+                                    "duration": 162,
+                                    "location": "tests/example.spec.js:12:42",
+                                    "errors": [
+                                        "Error: \u001b[31mScreenshot comparison failed:\u001b[39m\n\n  192 pixels (ratio 0.01 of all image pixels) are different.\n\nExpected: \u001b[33m/home/tim/Workspace/playwrightTest/test-results/example-example1-chromium/test2-expected.png\u001b[39m\nReceived: \u001b[33m/home/tim/Workspace/playwrightTest/test-results/example-example1-chromium/test2-actual.png\u001b[39m\n    Diff: \u001b[33m/home/tim/Workspace/playwrightTest/test-results/example-example1-chromium/test2-diff.png\u001b[39m\n\n\u001b[0m \u001b[90m 10 |\u001b[39m    \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'http://localhost:8080/test2.html'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 12 |\u001b[39m     expect\u001b[33m.\u001b[39msoft(\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m\"test2.png\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\n    at /home/tim/Workspace/playwrightTest/tests/example.spec.js:12:42"
+                                    ],
+                                    "subs": [
+                                        {
+                                            "id": "hewztnubm2izr6454259",
+                                            "title": "attach \"test2-expected.png\"",
+                                            "type": "step",
+                                            "stepType": "attach",
+                                            "duration": 0,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "18v9i85qdbgh4hzy21ey",
+                                            "title": "attach \"test2-actual.png\"",
+                                            "type": "step",
+                                            "stepType": "attach",
+                                            "duration": 2,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "dwofzr1s2ne89h09jt82",
+                                            "title": "attach \"test2-diff.png\"",
+                                            "type": "step",
+                                            "stepType": "attach",
+                                            "duration": 0,
+                                            "location": ""
+                                        }
+                                    ],
+                                    "errorNum": 1
+                                },
+                                {
+                                    "id": "vou2sehao73cvxzbixkd",
+                                    "title": "After Hooks",
+                                    "type": "step",
+                                    "stepType": "hook",
+                                    "duration": 292,
+                                    "location": "",
+                                    "subs": [
+                                        {
+                                            "id": "oikxl5i5gxondlyb35nn",
+                                            "title": "page.screenshot",
+                                            "type": "step",
+                                            "stepType": "pw:api",
+                                            "duration": 115,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "hohw4bxd0mkty8ral9er",
+                                            "title": "fixture: page",
+                                            "type": "step",
+                                            "stepType": "fixture",
+                                            "duration": 0,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "h25s93nrvt6x7tshx7bb",
+                                            "title": "fixture: context",
+                                            "type": "step",
+                                            "stepType": "fixture",
+                                            "duration": 0,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "mx5n24e4ykw9u49irfn7",
+                                            "title": "attach \"screenshot\"",
+                                            "type": "step",
+                                            "stepType": "attach",
+                                            "duration": 1,
+                                            "location": ""
+                                        },
+                                        {
+                                            "id": "ov7oo98gmq0b1dkcpq49",
+                                            "title": "fixture: browser",
+                                            "type": "step",
+                                            "stepType": "fixture",
+                                            "duration": 153,
+                                            "location": ""
+                                        }
+                                    ]
+                                }
+                            ],
+                            "attachments": [
+                                {
+                                    "name": "test1-expected.png",
+                                    "path": "example-example1-chromium/test1-expected.png",
+                                    "contentType": "image/png",
+                                    "retry": 0
+                                },
+                                {
+                                    "name": "test1-actual.png",
+                                    "path": "example-example1-chromium/test1-actual.png",
+                                    "contentType": "image/png",
+                                    "retry": 0
+                                },
+                                {
+                                    "name": "test1-diff.png",
+                                    "path": "example-example1-chromium/test1-diff.png",
+                                    "contentType": "image/png",
+                                    "retry": 0
+                                },
+                                {
+                                    "name": "test2-expected.png",
+                                    "path": "example-example1-chromium/test2-expected.png",
+                                    "contentType": "image/png",
+                                    "retry": 0
+                                },
+                                {
+                                    "name": "test2-actual.png",
+                                    "path": "example-example1-chromium/test2-actual.png",
+                                    "contentType": "image/png",
+                                    "retry": 0
+                                },
+                                {
+                                    "name": "test2-diff.png",
+                                    "path": "example-example1-chromium/test2-diff.png",
+                                    "contentType": "image/png",
+                                    "retry": 0
+                                },
+                                {
+                                    "name": "screenshot",
+                                    "path": "example-example1-chromium/test-failed-1.png",
+                                    "contentType": "image/png",
+                                    "retry": 0
+                                }
+                            ],
+                            "errorNum": 2,
+                            "errorId": "zhhh4v6szykwn2cn68ip"
+                        }
+                    ],
+                    "location": "tests/example.spec.js:0:0"
+                }
+            ]
+        }
+    ],
+    "formatters": {},
+    "suiteTypes": [
+        "project",
+        "file",
+        "describe",
+        "shard"
+    ],
+    "caseTypes": [
+        "passed",
+        "flaky",
+        "skipped",
+        "failed"
+    ],
+    "traceViewerUrl": "https://trace.playwright.dev/?trace={traceUrl}",
+    "tags": {},
+    "summary": {
+        "tests": {
+            "name": "Tests",
+            "value": 1,
+            "nav": true,
+            "id": "tests"
+        },
+        "passed": {
+            "name": "Passed",
+            "value": 0,
+            "color": "green",
+            "nav": true,
+            "id": "passed",
+            "percent": "0.0%"
+        },
+        "flaky": {
+            "name": "Flaky",
+            "value": 0,
+            "color": "orange",
+            "nav": true,
+            "id": "flaky",
+            "percent": "0.0%"
+        },
+        "skipped": {
+            "name": "Skipped",
+            "value": 0,
+            "color": "gray",
+            "nav": true,
+            "id": "skipped",
+            "percent": "0.0%"
+        },
+        "failed": {
+            "name": "Failed",
+            "value": 1,
+            "color": "#d00",
+            "nav": true,
+            "id": "failed",
+            "percent": "100.0%"
+        },
+        "steps": {
+            "name": "Steps",
+            "value": 25,
+            "id": "steps"
+        },
+        "suites": {
+            "name": "Suites",
+            "value": 1,
+            "id": "suites"
+        },
+        "projects": {
+            "name": "Projects",
+            "description": "Suite type is project",
+            "value": 1,
+            "id": "projects"
+        },
+        "files": {
+            "name": "Files",
+            "description": "Suite type is file",
+            "value": 1,
+            "id": "files"
+        },
+        "describes": {
+            "name": "Describes",
+            "description": "Suite type is describe",
+            "value": 0,
+            "id": "describes"
+        },
+        "shards": {
+            "name": "Shards",
+            "description": "Suite type is shard (only in shading mode)",
+            "value": 0,
+            "id": "shards"
+        },
+        "retries": {
+            "name": "Retries",
+            "value": 0,
+            "id": "retries"
+        },
+        "errors": {
+            "name": "Errors",
+            "value": 2,
+            "id": "errors"
+        },
+        "logs": {
+            "name": "Logs",
+            "value": 0,
+            "id": "logs"
+        },
+        "attachments": {
+            "name": "Attachments",
+            "value": 7,
+            "id": "attachments"
+        }
+    },
+    "pieChart": {
+        "ns": "mcr-pie",
+        "width": 360,
+        "height": 150,
+        "margin": 10,
+        "svg": "<svg viewBox=\"0 0 360 150\" width=\"100%\" height=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><g class=\"mcr-pie-path-passed\"><path d=\"\" fill=\"green\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,-10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g class=\"mcr-pie-path-flaky\"><path d=\"\" fill=\"orange\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,-10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g class=\"mcr-pie-path-skipped\"><path d=\"\" fill=\"gray\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,-10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g class=\"mcr-pie-path-failed\"><path d=\"M75,75 L75,10 A65,65 0 1 1 75,140 A65,65 0 1 1 75,10 z\" fill=\"#d00\" opacity=\"0.8\" /><animateTransform from=\"0,0\" to=\"0,0\" pos=\"0,10\" attributeName=\"transform\" type=\"translate\" dur=\"0.2s\" fill=\"freeze\" repeatCount=\"1\" restart=\"always\" /></g><g transform=\"translate(160 10)\"><g class=\"mcr-pie-legend-passed\" transform=\"translate(0 0)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"green\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Passed</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">0</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">0.0%</text></g><g class=\"mcr-pie-legend-flaky\" transform=\"translate(0 32)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"orange\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Flaky</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">0</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">0.0%</text></g><g class=\"mcr-pie-legend-skipped\" transform=\"translate(0 64)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"gray\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Skipped</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">0</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">0.0%</text></g><g class=\"mcr-pie-legend-failed\" transform=\"translate(0 96)\"><circle cx=\"10\" cy=\"16\" r=\"10\" fill=\"#d00\" opacity=\"0.8\" /><text x=\"30\" y=\"16\" alignment-baseline=\"middle\">Failed</text><text x=\"115\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"middle\">1</text><text x=\"190\" y=\"16\" alignment-baseline=\"middle\" text-anchor=\"end\">100.0%</text></g></g></svg>"
+    }
+}
